@@ -1,0 +1,7 @@
+{
+  "click_voices": [],
+  "idle_voices": [],
+  "idle_timeout_min_seconds": 180,
+  "idle_timeout_max_seconds": 300,
+  "time_windows": []
+}

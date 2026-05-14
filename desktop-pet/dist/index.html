@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 桌宠</title>
+  <script type="module" crossorigin src="/assets/index-CGgTGDrT.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BXBbj8aT.css">
+</head>
+<body>
+  <div id="spine-container"></div>
+
+  <div id="ctx-menu" class="ctx-menu hidden">
+    <div class="ctx-item" onclick="window.__toggleBubble && window.__toggleBubble()">聊天</div>
+    <div class="ctx-item" onclick="window.__switchModel && window.__switchModel()">切换</div>
+    <div class="ctx-sep"></div>
+    <div class="ctx-label model-label">凯尔希</div>
+    <div class="anim-list"></div>
+    <div class="ctx-sep"></div>
+    <div class="ctx-item" onclick="window.__testVoice && window.__testVoice()">测试语音</div>
+    <div class="ctx-sep"></div>
+    <div class="ctx-item" onclick="window.__toggleWalk && window.__toggleWalk()" id="menu-walk">行走：关</div>
+    <div class="ctx-item" onclick="window.__toggleIdleVoice && window.__toggleIdleVoice()" id="menu-idle-voice">闲置语音: 开</div>
+    <div class="ctx-item" onclick="window.__toggleAutostart && window.__toggleAutostart()" id="menu-autostart">开机自启: 关</div>
+    <div class="ctx-sep"></div>
+    <div class="ctx-item ctx-danger" onclick="window.__hide && window.__hide()">隐藏</div>
+  </div>
+
+  <div id="chat-bubble" class="chat-bubble hidden">
+    <div class="chat-messages" id="chat-messages"></div>
+    <div class="chat-input-area">
+      <input type="text" id="chat-input" placeholder="说点什么..." autocomplete="off">
+      <button id="chat-send">发送</button>
+    </div>
+  </div>
+
+  <div id="loading-hint">加载中...</div>
+
+  <script>
+    window.onerror = function(msg, url, line) {
+      document.getElementById('loading-hint').textContent = 'JS错误: ' + msg + ' (行' + line + ')';
+      document.getElementById('loading-hint').style.color = '#ff6666';
+    };
+    window.onunhandledrejection = function(e) {
+      document.getElementById('loading-hint').textContent = '异步错误: ' + (e.reason?.message || e.reason);
+      document.getElementById('loading-hint').style.color = '#ff6666';
+    };
+  </script>
+</body>
+</html>

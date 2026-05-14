@@ -1,0 +1,21 @@
+{
+  "name": "desktop-pet",
+  "private": true,
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently -k \"vite\" \"wait-on http://localhost:1420 && electron . --dev\"",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "dotenv": "^16",
+    "pixi-spine": "^3.1.2",
+    "pixi.js": "^6.5.10"
+  },
+  "devDependencies": {
+    "concurrently": "^9",
+    "electron": "^33",
+    "vite": "^6",
+    "wait-on": "^8"
+  }
+}

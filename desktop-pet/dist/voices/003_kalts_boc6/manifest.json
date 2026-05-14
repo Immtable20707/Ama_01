@@ -1,0 +1,54 @@
+{
+  "click_voices": [
+    "/voice/2/2_2/%E6%88%B3%E4%B8%80%E4%B8%8B.wav",
+    "/voice/2/2_2/%E6%88%B3%E4%B8%80%E4%B8%8B_1.wav",
+    "/voice/2/2_2/%E4%BF%A1%E8%B5%96%E8%A7%A6%E6%91%B8.wav",
+    "/voice/2/2_2/%E4%BF%A1%E8%B5%96%E8%A7%A6%E6%91%B8_1.wav"
+  ],
+  "idle_voices": [
+    "/voice/2/%E4%BA%A4%E8%B0%881.wav",
+    "/voice/2/%E4%BA%A4%E8%B0%881_1.wav",
+    "/voice/2/%E4%BA%A4%E8%B0%882.wav",
+    "/voice/2/%E4%BA%A4%E8%B0%882_1.wav",
+    "/voice/2/%E4%BA%A4%E8%B0%883.wav",
+    "/voice/2/%E4%BA%A4%E8%B0%883_1.wav",
+    "/voice/2/%E4%BB%BB%E5%91%BD%E5%8A%A9%E7%90%86.wav",
+    "/voice/2/%E4%BB%BB%E5%91%BD%E5%8A%A9%E7%90%86_1.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%881.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%881_1.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%882.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%882_1.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%883.wav",
+    "/voice/2/%E4%BF%A1%E8%B5%96%E6%8F%90%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%883_1.wav",
+    "/voice/2/%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8.wav",
+    "/voice/2/%E5%91%A8%E5%B9%B4%E5%BA%86%E5%85%B8_1.wav",
+    "/voice/2/%E6%99%8B%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%881.wav",
+    "/voice/2/%E6%99%8B%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%881_1.wav",
+    "/voice/2/%E6%99%8B%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%882.wav",
+    "/voice/2/%E6%99%8B%E5%8D%87%E5%90%8E%E4%BA%A4%E8%B0%882_1.wav",
+    "/voice/2/%E9%97%B2%E7%BD%AE.wav",
+    "/voice/2/%E9%97%B2%E7%BD%AE_1.wav"
+  ],
+  "idle_timeout_min_seconds": 300,
+  "idle_timeout_max_seconds": 600,
+  "time_windows": [
+    {
+      "name": "新年",
+      "start": "01-01",
+      "end": "01-05",
+      "idle_voices": [
+        "/voice/2/2_3/%E6%96%B0%E5%B9%B4%E7%A5%9D%E7%A6%8F.wav",
+        "/voice/2/2_3/%E6%96%B0%E5%B9%B4%E7%A5%9D%E7%A6%8F_1.wav"
+      ]
+    },
+    {
+      "name": "生日",
+      "start": "01-23",
+      "end": "01-23",
+      "idle_voices": [
+        "/voice/2/2_3/%E7%94%9F%E6%97%A5.wav",
+        "/voice/2/2_3/%E7%94%9F%E6%97%A5_1.wav"
+      ]
+    }
+  ]
+}
